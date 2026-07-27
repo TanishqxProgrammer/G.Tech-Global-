@@ -36,27 +36,27 @@ const stats = [
 
 const HeroStats = () => {
   return (
-    <section className="absolute -bottom-14 left-1/2 z-20 w-full -translate-x-1/2">
-      <div className="mx-auto flex w-full justify-center px-6">
-        <div className="flex w-[1280px] overflow-hidden rounded-2xl border border-slate-200 bg-[#F8FAFC] shadow-[0_20px_60px_rgba(15,23,42,0.10)]">
+    <section className="relative z-30 mt-6 mb-12">
+      <div className="mx-auto flex justify-center px-8">
+        <div className="grid w-full max-w-[1280px] grid-cols-5 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-lg">
           {stats.map((item, index) => {
             const Icon = item.icon;
 
             return (
               <div
                 key={index}
-                className="flex h-[118px] flex-1 items-center justify-center gap-4 border-r border-slate-200/70 px-6 last:border-r-0 transition-all duration-300 hover:bg-white"
+                className="flex h-[96px] items-center justify-center gap-3 border-r border-slate-200 last:border-r-0 transition-all duration-300 hover:bg-sky-50"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-sky-100">
-                  <Icon size={22} className="text-sky-600" />
+                <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-sky-100">
+                  <Icon className="text-sky-600" size={20} />
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-bold leading-none text-slate-900">
+                  <h3 className="text-lg font-bold text-slate-900">
                     {item.value}
                   </h3>
 
-                  <p className="mt-1 text-[13px] font-medium text-slate-500">
+                  <p className="text-xs text-slate-500">
                     {item.label}
                   </p>
                 </div>

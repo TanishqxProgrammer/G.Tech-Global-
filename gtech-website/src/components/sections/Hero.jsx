@@ -1,12 +1,11 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import heroBg from "../../assets/images/hero/img2.png";
-import HeroStats from "./HeroStats";
 import Button from "../common/Button";
 
 const Hero = () => {
   return (
     <section
-      className="relative overflow-visible bg-cover bg-no-repeat pb-32 min-h-[700px] lg:min-h-[calc(100vh-84px)]"
+      className="relative overflow-visible h-[620px]"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundPosition: "right center",
@@ -17,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white via-white/60 to-transparent" />
 
       {/* Hero Content */}
-      <div className="relative z-10 flex min-h-[700px] lg:min-h-[calc(100vh-84px)] items-center">
+      <div className="relative z-10 flex h-[620px] items-center">
         <div className="mx-auto w-full max-w-[1600px] px-6 sm:px-8 lg:px-12 xl:px-16">
           <div className="max-w-[600px] translate-x-10 lg:translate-x-14">
             {/* Badge */}
@@ -84,7 +83,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <HeroStats />
     </section>
   );
 };
