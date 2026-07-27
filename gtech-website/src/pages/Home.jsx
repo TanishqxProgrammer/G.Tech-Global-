@@ -1,11 +1,10 @@
 import MainLayout from "../components/layout/MainLayout";
+import Hero from "../components/sections/Hero";
 
 const Home = () => {
   return (
     <MainLayout>
-      <div className="h-[700px] bg-green-300">
-        Test
-      </div>
+      <Hero />
     </MainLayout>
   );
 };
