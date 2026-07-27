@@ -15,7 +15,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <header className="h-[84px] border-b border-gray-200 bg-white">
+    <header className="relative z-50 h-[84px] border-b border-gray-200 bg-white">
         <div className="flex h-full items-center justify-evenly gap-6">
 
           {/* Logo */}

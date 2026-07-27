@@ -1,19 +1,20 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import heroBg from "../../assets/images/hero/img2.png";
-
+import HeroStats from "./HeroStats";
 import Button from "../common/Button";
 
 const Hero = () => {
   return (
     <section
-      className="relative overflow-hidden bg-cover bg-no-repeat min-h-[700px] lg:min-h-[calc(100vh-84px)]"
+      className="relative overflow-visible bg-cover bg-no-repeat pb-32 min-h-[700px] lg:min-h-[calc(100vh-84px)]"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundPosition: "right center",
+        backgroundSize: "cover",
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/60 to-transparent" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-r from-white via-white/60 to-transparent" />
 
       {/* Hero Content */}
       <div className="relative z-10 flex min-h-[700px] lg:min-h-[calc(100vh-84px)] items-center">
@@ -83,6 +84,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <HeroStats />
     </section>
   );
 };
