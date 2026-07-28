@@ -1,15 +1,12 @@
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
 
 const MainLayout = ({ children }) => {
   return (
     <>
       <Navbar />
-
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
     </>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;
