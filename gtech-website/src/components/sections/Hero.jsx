@@ -6,8 +6,7 @@ import Button from "../common/Button";
 
 const Hero = () => {
   return (
-    <section
-      className="relative h-[640px] overflow-hidden"
+    <section className="relative h-[760px] overflow-hidden"
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundPosition: "right center",
@@ -17,8 +16,8 @@ const Hero = () => {
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/75 to-transparent" />
 
-      <Container className="relative z-10 flex h-full items-center">
-  <div className="max-w-[620px] translate-x-10">
+      <Container className="relative z-10 flex h-full items-center pb-28">
+  <div className="max-w-[680px] translate-x-10">
 
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-200 bg-sky-100 px-5 py-2">
@@ -44,7 +43,7 @@ const Hero = () => {
           </h1>
 
           {/* Description */}
-          <p className="mt-8 max-w-[560px] text-lg leading-9 text-slate-600">
+          <p className="mt-3 max-w-[560px] text-lg leading-9 text-slate-600">
             We provide advanced water treatment systems including
             RO Plants, STP, ETP, Water Softeners and complete
             industrial water solutions across India.

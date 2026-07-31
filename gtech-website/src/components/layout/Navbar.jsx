@@ -70,7 +70,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Button className="h-12 w-35 px-7">
+            <Button className="h-12 w-50 px-7">
               Contact Us
               <ArrowRight size={18} />
             </Button>
