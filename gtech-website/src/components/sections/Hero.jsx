@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-200 bg-sky-100 px-5 py-2">
             <span className="h-2 w-2 rounded-full bg-sky-500" />
 
-            <span className="text-sm font-semibold uppercase tracking-wider text-sky-700">
+            <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Trusted Water Treatment Company
             </span>
           </div>
@@ -33,7 +33,7 @@ const Hero = () => {
             Engineering
             <br />
 
-            <span className="text-sky-600">
+            <span className="text-blue-600">
               Clean Water
             </span>
 

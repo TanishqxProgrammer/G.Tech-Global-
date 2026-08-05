@@ -5,7 +5,7 @@ const OurSolution = () => {
   return (
     <section className="bg-[#F8FAFC] pt-20 pb-20">
       <div className="mx-auto max-w-7xl px-6">
-        <p className="text-sm font-bold uppercase tracking-widest text-sky-600">
+        <p className="text-sm font-bold uppercase tracking-widest text-blue-600">
           OUR SOLUTIONS
         </p>
 

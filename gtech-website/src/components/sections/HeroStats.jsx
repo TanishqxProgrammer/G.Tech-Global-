@@ -60,7 +60,7 @@ const HeroStats = () => {
                     index < 4 ? "border-b lg:border-b-0 border-slate-200" : ""
                   }`}
               >
-                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-blue-50 text-sky-600">
+                <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-blue-50 text-blue-600">
                   <Icon size={24} strokeWidth={1.8} />
                 </div>
 

@@ -7,7 +7,7 @@ const Button = ({
   ...props
 }) => {
   const styles = {
-    primary: "bg-sky-600 text-white hover:bg-sky-700",
+    primary: "bg-blue-600 text-white hover:bg-sky-700",
 
     secondary:
       "border border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white",

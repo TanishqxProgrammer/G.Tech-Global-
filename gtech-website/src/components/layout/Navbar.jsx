@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex h-[90px] items-center">
           {/* Logo */}
           <div className="w-[220px] flex-shrink-0 pl-2">
-            <h1 className="text-4xl font-black text-sky-600">Logo</h1>
+            <h1 className="text-4xl font-black text-blue-600">Logo</h1>
           </div>
 
           {/* Navigation */}
@@ -33,8 +33,8 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       `relative pb-2 text-[15px] font-semibold transition-colors duration-300 ${
                         isActive
-                          ? "text-sky-600"
-                          : "text-slate-700 hover:text-sky-600"
+                          ? "text-blue-600"
+                          : "text-slate-700 hover:text-blue-600"
                       }`
                     }
                   >
@@ -42,7 +42,7 @@ const Navbar = () => {
                       <>
                         {link.name}
                         <span
-                          className={`absolute left-0 -bottom-[8px] h-[3px] rounded-full bg-sky-600 transition-all duration-300 ${
+                          className={`absolute left-0 -bottom-[8px] h-[3px] rounded-full bg-blue-600 transition-all duration-300 ${
                             isActive ? "w-full" : "w-0"
                           }`}
                         />
@@ -58,7 +58,7 @@ const Navbar = () => {
           <div className="flex w-[320px] flex-shrink-0 items-center justify-end gap-6">
             <div className="flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-sky-100">
-                <Phone size={18} className="text-sky-600" />
+                <Phone size={18} className="text-blue-600" />
               </div>
 
               <div>

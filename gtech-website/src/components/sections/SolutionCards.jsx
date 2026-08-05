@@ -52,7 +52,7 @@ const SolutionCards = () => {
             key={index}
             className="group rounded-2xl border border-slate-200 bg-white p-5 transition-all duration-300 hover:-translate-y-1 hover:border-sky-500 hover:shadow-lg"
           >
-            <div className="mb-5 text-sky-600">
+            <div className="mb-5 text-blue-600">
               <Icon size={38} strokeWidth={1.6} />
             </div>
 
@@ -64,7 +64,7 @@ const SolutionCards = () => {
               {item.desc}
             </p>
 
-            <button className="mt-5 flex items-center gap-2 text-sm font-semibold text-sky-600 transition-all duration-300 group-hover:gap-3">
+            <button className="mt-5 flex items-center gap-2 text-sm font-semibold text-blue-600 transition-all duration-300 group-hover:gap-3">
               Learn More
               <ArrowRight size={15} />
             </button>
