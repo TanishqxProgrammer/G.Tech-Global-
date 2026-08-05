@@ -44,7 +44,6 @@ const HeroStats = () => {
     <section className="relative z-20 -mt-16 lg:-mt-20">
       <div className="mx-auto max-w-6xl px-4">
         <div className="border-gray-500 grid grid-cols-2 overflow-hidden rounded-[24px] bg-white shadow-[0_15px_40px_rgba(15,23,42,0.08)] lg:grid-cols-5">
-
           {stats.map((item, index) => {
             const Icon = item.icon;
 
@@ -58,9 +57,7 @@ const HeroStats = () => {
                       : ""
                   }
                   ${
-                    index < 4
-                      ? "border-b lg:border-b-0 border-slate-200"
-                      : ""
+                    index < 4 ? "border-b lg:border-b-0 border-slate-200" : ""
                   }`}
               >
                 <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-blue-50 text-sky-600">
@@ -72,9 +69,7 @@ const HeroStats = () => {
                     {item.value}
                   </h3>
 
-                  <p className="mt-1 text-xs text-slate-500">
-                    {item.title}
-                  </p>
+                  <p className="mt-1 text-xs text-slate-500">{item.title}</p>
 
                   <p className="text-sm font-medium text-slate-800">
                     {item.subtitle}
@@ -83,7 +78,6 @@ const HeroStats = () => {
               </div>
             );
           })}
-
         </div>
       </div>
     </section>
