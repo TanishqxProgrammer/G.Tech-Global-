@@ -80,7 +80,7 @@ const FounderSection = () => {
                 {/* Founder Info */}
                 <div className="mt-8">
                   <h3 className="text-2xl font-bold text-slate-900">
-                    Mr. Gaurav Sirvaiya
+                    Mr. Gaurav Sir
                   </h3>
 
                   <p className="mt-2 text-slate-500">

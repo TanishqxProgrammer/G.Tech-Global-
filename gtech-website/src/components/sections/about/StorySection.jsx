@@ -33,8 +33,8 @@ const StorySection = () => {
 
             <p className="mt-5 text-lg leading-8 text-slate-600">
               Every project reflects our dedication to innovation, precision,
-              and building relationships that last. Our goal is not only to
-              meet expectations but to consistently exceed them.
+              and building relationships that last. Our goal is not only to meet
+              expectations but to consistently exceed them.
             </p>
 
             <div className="mt-8 space-y-5">
@@ -43,10 +43,7 @@ const StorySection = () => {
                   key={item}
                   className="flex items-center gap-3 text-slate-700"
                 >
-                  <CheckCircle2
-                    className="text-blue-600"
-                    size={22}
-                  />
+                  <CheckCircle2 className="text-blue-600" size={22} />
 
                   <span className="text-lg font-medium">{item}</span>
                 </div>
@@ -58,10 +55,10 @@ const StorySection = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="w-full max-w-[680px] overflow-hidden rounded-[32px] border border-slate-200 bg-white p-2 shadow-[0_20px_60px_rgba(15,23,42,0.08)]">
               <img
-  src={storyImg}
-  alt="Our Story"
-  className="h-[600px] w-full rounded-[24px] object-cover object-top transition-all duration-500 hover:scale-105"
-/>
+                src={storyImg}
+                alt="Our Story"
+                className="h-[600px] w-full rounded-[24px] object-cover object-top transition-all duration-500 hover:scale-105"
+              />
             </div>
           </div>
         </div>
