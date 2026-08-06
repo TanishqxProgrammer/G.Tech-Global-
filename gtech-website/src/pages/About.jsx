@@ -1,8 +1,13 @@
 import React from 'react'
+import FounderSection from '../components/sections/about/FounderSection'
+import StorySection from '../components/sections/about/StorySection'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <FounderSection />
+      <StorySection />
+    </div>
   )
 }
 
