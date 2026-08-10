@@ -11,7 +11,7 @@ import {
   UtensilsCrossed,
 } from "lucide-react";
 
-import Button from "../common/Button";
+import Button from "../../common/Button";
 
 const industries = [
   {

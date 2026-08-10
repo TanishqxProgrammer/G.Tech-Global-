@@ -1,9 +1,9 @@
-import Hero from "../components/sections/Hero";
-import HeroStats from "../components/sections/HeroStats";
-import IndustriesSection from "../components/sections/IndustriesSection";
-import OurSolution from "../components/sections/OurSolutions";
-import RecentProjects from "../components/sections/RecentProjects";
-import CTASection from "../components/sections/CTASection";
+import Hero from "../components/sections/home/Hero";
+import HeroStats from "../components/sections/home/HeroStats";
+import IndustriesSection from "../components/sections/home/IndustriesSection";
+import OurSolution from "../components/sections/home/OurSolutions";
+import RecentProjects from "../components/sections/home/RecentProjects";
+import CTASection from "../components/sections/home/CTASection";
 import Footer from "../components/layout/Footer";
 
 const Home = () => {
@@ -19,6 +19,7 @@ const Home = () => {
       <IndustriesSection />
       <RecentProjects />
       <CTASection />
+
       <Footer />
     </>
   );

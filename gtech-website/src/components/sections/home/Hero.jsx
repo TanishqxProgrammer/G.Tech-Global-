@@ -1,8 +1,7 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import heroBg from "../../assets/images/hero/img2.png";
-
-import Container from "../common/Container";
-import Button from "../common/Button";
+import heroBg from "../../../assets/images/hero/img2.png";
+import Container from "../../common/Container";
+import Button from "../../common/Button";
 
 const Hero = () => {
   return (

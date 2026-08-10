@@ -1,14 +1,14 @@
 import { ArrowRight } from "lucide-react";
 
-import Container from "../common/Container";
-import Button from "../common/Button";
+import Container from "../../common/Container";
+import Button from "../../common/Button";
 import ProjectCard from "./ProjectCard";
 
-import project1 from "../../assets/images/project1.webp";
-import project2 from "../../assets/images/project2.webp";
-import project3 from "../../assets/images/project3.webp";
-import project4 from "../../assets/images/project4.webp";
-import project5 from "../../assets/images/project5.webp";
+import project1 from "../../../assets/images/project1.webp";
+import project2 from "../../../assets/images/project2.webp";
+import project3 from "../../../assets/images/project3.webp";
+import project4 from "../../../assets/images/project4.webp";
+import project5 from "../../../assets/images/project5.webp";
 
 const projects = [
   {
@@ -40,11 +40,11 @@ const projects = [
 
 const RecentProjects = () => {
   return (
-    <section className="py-20 bg-[#F8FBFF]">
+    <section className="py-20">
       <Container>
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <div>
-            <span className="inline-flex rounded-full bg-blue-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-blue-600">
+            <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
               Our Projects
             </span>
 

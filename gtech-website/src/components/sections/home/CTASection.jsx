@@ -1,9 +1,7 @@
 import { ArrowRight, Phone } from "lucide-react";
-
-import Container from "../common/Container";
-import Button from "../common/Button";
-
-import ctaIllustration from "../../assets/images/CTA/image3.png";
+import Container from "../../common/Container";
+import Button from "../../common/Button";
+import ctaIllustration from "../../../assets/images/CTA/image3.png";
 
 const CTASection = () => {
   return (

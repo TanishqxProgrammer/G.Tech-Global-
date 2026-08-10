@@ -1,4 +1,4 @@
-import Container from "../common/Container";
+import Container from "../../common/Container";
 import IndustriesCard from "./IndustriesCard";
 import WhyChooseCard from "./WhyChooseCard";
 
